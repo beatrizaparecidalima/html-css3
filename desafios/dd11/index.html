@@ -7,23 +7,31 @@
     <title>Astronauta</title>
     <style>
         body{
-            background-image: url(espaco.jpg);
-            background-size: cover;
-        }
-        main > img{
-            width: 100%px;
-            position: center center;
             
+            height: 90vh;
+            background-position: center top;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
 
-        }
+        
+            background-image: url(espaco.jpg);
+    }
+    section{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+       
     </style>
     
 </head>
 <body>
-    <main>
+    <section>
         <img src="astronauta.png" alt="astronauta">
-
-    </main>
+    </section>
+    
     
 </body>
 </html>
