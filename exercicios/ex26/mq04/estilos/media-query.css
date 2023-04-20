@@ -21,6 +21,7 @@ Grandes telas: aceima de 1200px
         
     }
     main{
+        
         border: 2px solid black;
         width: 90vw;
     }
@@ -44,6 +45,7 @@ Grandes telas: aceima de 1200px
     body{
         background-image: url(../imagens/back-tablet.jpg);
     }
+    
     img#phone { display: none;}
     img#tablet { display: block;}
     img#print { display: none;}
